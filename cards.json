@@ -1729,7 +1729,7 @@
   { "id": 197, "type": "challenge", "text": "คนที่ยังไม่เมา กิน 2 อึก", "owner": "Game" },
   { "id": 198, "type": "challenge", "text": "คนที่ดูเมาสุด กิน 1 อึกเพิ่ม", "owner": "Game" },
   { "id": 199, "type": "challenge", "text": "คุณกินปิดรอบ 3 อึก", "owner": "Game" },
-  { "id": 200, "type": "challenge", "text": "Hardcore Finish: คุณกิน 5 อึก", "owner": "Game" }
-  ]
+  { "id": 200, "type": "challenge", "text": "Hardcore Finish: คุณกิน 5 อึก", "owner": "Game" },
+]
     
 
