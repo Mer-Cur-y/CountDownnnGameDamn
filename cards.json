@@ -2,19 +2,61 @@
   {
     "id": 1,
     "type": "challenge",
-    "text": "ดื่ม 1 ช็อต",
-    "owner": "เจ้าบ้าน"
+    "text": "ซ้ายกิน",
+    "owner": "Game"
   },
   {
     "id": 2,
-    "type": "character",
-    "text": "เลือกคนหนึ่งดื่มแทนคุณ",
-    "owner": "เจ้าบ้าน"
+    "type": "challenge",
+    "text": "ขวากิน",
+    "owner": "Game"
   },
   {
     "id": 3,
     "type": "challenge",
-    "text": "ทุกคนดื่มพร้อมกัน",
-    "owner": "เจ้าบ้าน"
+    "text": "คนตรงข้ามกิน",
+    "owner": "Game"
+  },
+  {
+    "id": 4,
+    "type": "challenge",
+    "text": "คนข้างๆกิน",
+    "owner": "Game"
+  },
+  {
+    "id": 5,
+    "type": "challenge",
+    "text": "คุณกิน",
+    "owner": "Game"
+  },
+  {
+    "id": 6,
+    "type": "challenge",
+    "text": "ทุกคนกิน",
+    "owner": "Game"
+  },
+  {
+    "id": 7,
+    "type": "challenge",
+    "text": "คนที่อายุมากที่สุดกิน",
+    "owner": "Game"
+  },
+  {
+    "id": 8,
+    "type": "challenge",
+    "text": "คนที่อายุน้อยที่สุดกิน",
+    "owner": "Game"
+  },
+  {
+    "id": 9,
+    "type": "challenge",
+    "text": "คนที่หัวเราะล่าสุดกิน",
+    "owner": "Game"
+  },
+  {
+    "id": 10,
+    "type": "challenge",
+    "text": "คนที่ถือโทรศัพท์กิน",
+    "owner": "Game"
   }
 ]
