@@ -86,4 +86,485 @@
   { "id": 78, "type": "character", "text": "ต้องพูดเหมือนตัวร้ายในหนัง", "owner": "Player" },
   { "id": 79, "type": "character", "text": "ต้องพูดเหมือนเด็ก 5 ขวบ", "owner": "Player" },
   { "id": 80, "type": "character", "text": "ห้ามแสดงอารมณ์ใด ๆ", "owner": "Player" }
-    ]
+  {
+  "id": 81,
+  "type": "challenge",
+  "text": "ห้ามพูดคำว่า ไม่ จนจบตา",
+  "owner": "Game"
+},
+{
+  "id": 82,
+  "type": "challenge",
+  "text": "มีคนเรียกชื่อคุณ = ดื่ม 1 อึก",
+  "owner": "Game"
+},
+{
+  "id": 83,
+  "type": "challenge",
+  "text": "ต้องยืนเล่น 1 รอบ",
+  "owner": "Game"
+},
+{
+  "id": 84,
+  "type": "challenge",
+  "text": "ขยับตัวเมื่อไร ต้องทำเสียงเอฟเฟกต์",
+  "owner": "Game"
+},
+{
+  "id": 85,
+  "type": "challenge",
+  "text": "ห้ามใช้มือข้างถนัด",
+  "owner": "Game"
+},
+{
+  "id": 86,
+  "type": "challenge",
+  "text": "มีคนหัวเราะ = คุณดื่ม 1 อึก",
+  "owner": "Game"
+},
+{
+  "id": 87,
+  "type": "challenge",
+  "text": "พูดช้าลง 3 เท่า",
+  "owner": "Game"
+},
+{
+  "id": 88,
+  "type": "challenge",
+  "text": "ห้ามสบตาใครจนจบตา",
+  "owner": "Game"
+},
+{
+  "id": 89,
+  "type": "challenge",
+  "text": "ต้องนั่งท่าแปลก ๆ จนจบรอบ",
+  "owner": "Game"
+},
+{
+  "id": 90,
+  "type": "challenge",
+  "text": "พูดเกิน 5 คำติดกัน = ดื่ม",
+  "owner": "Game"
+},
+{
+  "id": 91,
+  "type": "challenge",
+  "text": "ห้ามพูดภาษาไทย (พูดมั่วได้)",
+  "owner": "Game"
+},
+{
+  "id": 92,
+  "type": "challenge",
+  "text": "ตอบทุกคำถามด้วยคำเดียว",
+  "owner": "Game"
+},
+{
+  "id": 93,
+  "type": "challenge",
+  "text": "ดื่ม 2 อึกทันที",
+  "owner": "Game"
+},
+{
+  "id": 94,
+  "type": "challenge",
+  "text": "ทำหน้าตายตลอดรอบ",
+  "owner": "Game"
+},
+{
+  "id": 95,
+  "type": "challenge",
+  "text": "ห้ามขยับตัว (ขยับ = ดื่ม)",
+  "owner": "Game"
+},
+{
+  "id": 96,
+  "type": "challenge",
+  "text": "ก่อนพูดต้องทำเสียงสัตว์",
+  "owner": "Game"
+},
+{
+  "id": 97,
+  "type": "challenge",
+  "text": "ห้ามหัวเราะเด็ดขาด",
+  "owner": "Game"
+},
+{
+  "id": 98,
+  "type": "challenge",
+  "text": "มีคนเปิดการ์ด = คุณดื่ม",
+  "owner": "Game"
+},
+{
+  "id": 99,
+  "type": "challenge",
+  "text": "ห้ามปฏิเสธคำท้าทายถัดไป",
+  "owner": "Game"
+},
+{
+  "id": 100,
+  "type": "challenge",
+  "text": "ดื่ม 3 อึก และเปิดการ์ดเพิ่ม 1 ใบ",
+  "owner": "Game"
+}
+  {
+  "id": 101,
+  "type": "challenge",
+  "text": "คุณซวยคนเดียว ดื่ม 2 อึก",
+  "owner": "Joker"
+},
+{
+  "id": 102,
+  "type": "challenge",
+  "text": "ทั้งวงซวย ดื่มคนละ 1 อึก",
+  "owner": "Joker"
+},
+{
+  "id": 103,
+  "type": "challenge",
+  "text": "คนซ้ายมือคุณดื่มแทนคุณ",
+  "owner": "Joker"
+},
+{
+  "id": 104,
+  "type": "challenge",
+  "text": "คุณต้องดื่มแทนทั้งวง 1 อึก",
+  "owner": "Joker"
+},
+{
+  "id": 105,
+  "type": "challenge",
+  "text": "เลือก 1 คน ซวยไปกับคุณ ดื่ม 1 อึก",
+  "owner": "Joker"
+},
+{
+  "id": 106,
+  "type": "challenge",
+  "text": "ถ้าใครหัวเราะ คุณดื่ม",
+  "owner": "Joker"
+},
+{
+  "id": 107,
+  "type": "challenge",
+  "text": "คุณดื่ม 1 อึก ทุกครั้งที่มีคนเปิดการ์ด",
+  "owner": "Joker"
+},
+{
+  "id": 108,
+  "type": "challenge",
+  "text": "ทั้งวงมองหน้าคุณ = คุณดื่ม",
+  "owner": "Joker"
+},
+{
+  "id": 109,
+  "type": "challenge",
+  "text": "คุณซวยต่อเนื่อง เปิดการ์ดเพิ่ม",
+  "owner": "Joker"
+},
+{
+  "id": 110,
+  "type": "challenge",
+  "text": "ทุกคนดื่ม ยกเว้นคุณ",
+  "owner": "Joker"
+},
+{
+  "id": 111,
+  "type": "challenge",
+  "text": "คุณดื่มตามจำนวนคนในวง",
+  "owner": "Joker"
+},
+{
+  "id": 112,
+  "type": "challenge",
+  "text": "เลือกคนหนึ่งให้ซวยแทนคุณ",
+  "owner": "Joker"
+},
+{
+  "id": 113,
+  "type": "challenge",
+  "text": "คุณดื่ม 3 อึกทันที",
+  "owner": "Joker"
+},
+{
+  "id": 114,
+  "type": "challenge",
+  "text": "ทั้งวงต้องจ้องหน้าคุณ 5 วิ",
+  "owner": "Joker"
+},
+{
+  "id": 115,
+  "type": "challenge",
+  "text": "คุณพูดไม่ได้ 1 รอบ (พูด = ดื่ม)",
+  "owner": "Joker"
+},
+{
+  "id": 116,
+  "type": "challenge",
+  "text": "ใครสบตาคุณ = ดื่ม",
+  "owner": "Joker"
+},
+{
+  "id": 117,
+  "type": "challenge",
+  "text": "คุณดื่มทุกครั้งที่มีคนหัวเราะ",
+  "owner": "Joker"
+},
+{
+  "id": 118,
+  "type": "challenge",
+  "text": "ทั้งวงต้องทำตามคุณ 1 ท่า",
+  "owner": "Joker"
+},
+{
+  "id": 119,
+  "type": "challenge",
+  "text": "คุณเป็นเป้า ใครเลือกคุณ = ดื่ม",
+  "owner": "Joker"
+},
+{
+  "id": 120,
+  "type": "challenge",
+  "text": "คุณดื่มแทนคนที่นั่งตรงข้าม",
+  "owner": "Joker"
+},
+{
+  "id": 121,
+  "type": "challenge",
+  "text": "คุณซวยเงียบ ๆ ดื่ม 1 อึก",
+  "owner": "Joker"
+},
+{
+  "id": 122,
+  "type": "challenge",
+  "text": "ทั้งวงชี้มาที่คุณ = คุณดื่ม",
+  "owner": "Joker"
+},
+{
+  "id": 123,
+  "type": "challenge",
+  "text": "คุณต้องทำโทษเพิ่มจากการ์ดถัดไป",
+  "owner": "Joker"
+},
+{
+  "id": 124,
+  "type": "challenge",
+  "text": "คุณดื่มก่อนใคร 1 อึก",
+  "owner": "Joker"
+},
+{
+  "id": 125,
+  "type": "challenge",
+  "text": "ทั้งวงดื่มพร้อมกัน",
+  "owner": "Joker"
+},
+{
+  "id": 126,
+  "type": "challenge",
+  "text": "คุณดื่มถ้าใครเรียกชื่อคุณ",
+  "owner": "Joker"
+},
+{
+  "id": 127,
+  "type": "challenge",
+  "text": "คุณซวยพิเศษ ดื่ม 2 อึก",
+  "owner": "Joker"
+},
+{
+  "id": 128,
+  "type": "challenge",
+  "text": "เลือก 2 คน ดื่มพร้อมคุณ",
+  "owner": "Joker"
+},
+{
+  "id": 129,
+  "type": "challenge",
+  "text": "คุณต้องรับโทษแทนการ์ดนี้",
+  "owner": "Joker"
+},
+{
+  "id": 130,
+  "type": "challenge",
+  "text": "ทั้งวงซวยอีกรอบ ดื่ม",
+  "owner": "Joker"
+}
+  {
+  "id": 131,
+  "type": "challenge",
+  "text": "ขอ IG คนทางขวา",
+  "owner": "Activity"
+},
+{
+  "id": 132,
+  "type": "character",
+  "text": "คุณคือสายกล้า ต้องเริ่มคุยก่อน",
+  "owner": "Activity"
+},
+{
+  "id": 133,
+  "type": "challenge",
+  "text": "เลือกคนหนึ่งให้เล่าเรื่องเขิน",
+  "owner": "Activity"
+},
+{
+  "id": 134,
+  "type": "challenge",
+  "text": "ขอ IG คนที่ยังไม่สนิท",
+  "owner": "Activity"
+},
+{
+  "id": 135,
+  "type": "character",
+  "text": "คุณคือพิธีกร ตั้งคำถาม 1 ข้อ",
+  "owner": "Activity"
+},
+{
+  "id": 136,
+  "type": "challenge",
+  "text": "ชวนคนหนึ่งชนแก้ว",
+  "owner": "Activity"
+},
+{
+  "id": 137,
+  "type": "challenge",
+  "text": "เลือกคนหนึ่งให้เล่าเรื่องตลก",
+  "owner": "Activity"
+},
+{
+  "id": 138,
+  "type": "character",
+  "text": "คุณคือสายส่อง เลือกคนดื่ม",
+  "owner": "Activity"
+},
+{
+  "id": 139,
+  "type": "challenge",
+  "text": "ขอ IG คนซ้ายมือ",
+  "owner": "Activity"
+},
+{
+  "id": 140,
+  "type": "challenge",
+  "text": "ทักแชทใครก็ได้ในวง",
+  "owner": "Activity"
+},
+{
+  "id": 141,
+  "type": "character",
+  "text": "คุณคือคนคุมเกม เลือกคนเปิดต่อ",
+  "owner": "Activity"
+},
+{
+  "id": 142,
+  "type": "challenge",
+  "text": "ถามคำถามแรง ๆ 1 ข้อ",
+  "owner": "Activity"
+},
+{
+  "id": 143,
+  "type": "challenge",
+  "text": "ขอ IG คนที่แต่งตัวโดนใจ",
+  "owner": "Activity"
+},
+{
+  "id": 144,
+  "type": "character",
+  "text": "คุณคือสายชิล ข้ามโทษ 1 ครั้ง",
+  "owner": "Activity"
+},
+{
+  "id": 145,
+  "type": "challenge",
+  "text": "ให้คนหนึ่งรีวิวคุณ",
+  "owner": "Activity"
+},
+{
+  "id": 146,
+  "type": "challenge",
+  "text": "ส่งสติ๊กเกอร์ในแชทกลุ่ม",
+  "owner": "Activity"
+},
+{
+  "id": 147,
+  "type": "character",
+  "text": "คุณคือคนเลือกหัวข้อคุย",
+  "owner": "Activity"
+},
+{
+  "id": 148,
+  "type": "challenge",
+  "text": "ขอ IG คนตรงข้าม",
+  "owner": "Activity"
+},
+{
+  "id": 149,
+  "type": "challenge",
+  "text": "เลือกคนหนึ่งให้ดื่มกับคุณ",
+  "owner": "Activity"
+},
+{
+  "id": 150,
+  "type": "character",
+  "text": "คุณคือสายฮา ทำให้ใครก็ได้หัวเราะ",
+  "owner": "Activity"
+},
+  { "id": 151, "type": "challenge", "text": "ซ้ายกิน x2", "owner": "Game" },
+  { "id": 152, "type": "challenge", "text": "ขวากิน x2", "owner": "Game" },
+  { "id": 153, "type": "challenge", "text": "คนถัดไปกิน 2 อึก", "owner": "Game" },
+  { "id": 154, "type": "challenge", "text": "คนก่อนหน้ากิน 2 อึก", "owner": "Game" },
+  { "id": 155, "type": "challenge", "text": "คุณกิน 2 อึก", "owner": "Game" },
+
+  { "id": 156, "type": "challenge", "text": "ทั้งวงกินเพิ่มคนละ 1 อึก", "owner": "Game" },
+  { "id": 157, "type": "challenge", "text": "คนที่เพิ่งกินไป กินซ้ำ x2", "owner": "Game" },
+  { "id": 158, "type": "challenge", "text": "คนที่ยังไม่กินรอบนี้ กิน 2 อึก", "owner": "Game" },
+  { "id": 159, "type": "challenge", "text": "เลือก 1 คน กิน 3 อึก", "owner": "Game" },
+  { "id": 160, "type": "challenge", "text": "คุณกินแทนคนซ้ายและขวา", "owner": "Game" },
+
+  { "id": 161, "type": "challenge", "text": "ชนแก้วทั้งวง แล้วคุณกินเพิ่ม 2 อึก", "owner": "Game" },
+  { "id": 162, "type": "challenge", "text": "ใครสบตาคุณ กิน 2 อึก", "owner": "Game" },
+  { "id": 163, "type": "challenge", "text": "คนที่หัวเราะล่าสุด กิน 2 อึก", "owner": "Game" },
+  { "id": 164, "type": "challenge", "text": "คนที่พูดล่าสุด กิน 2 อึก", "owner": "Game" },
+  { "id": 165, "type": "challenge", "text": "คุณกินตามจำนวนพยางค์ชื่อคุณ", "owner": "Game" },
+
+  { "id": 166, "type": "challenge", "text": "คนชื่อยาวสุด กิน 3 อึก", "owner": "Game" },
+  { "id": 167, "type": "challenge", "text": "คนชื่อสั้นสุด กิน 2 อึก", "owner": "Game" },
+  { "id": 168, "type": "challenge", "text": "คุณกิน 1 อึก ทุกคนอื่นกิน 2 อึก", "owner": "Game" },
+  { "id": 169, "type": "challenge", "text": "คนที่นั่งใกล้คุณที่สุด กิน 2 อึก", "owner": "Game" },
+  { "id": 170, "type": "challenge", "text": "คุณกิน 4 อึก (Hardcore)", "owner": "Game" },
+
+  { "id": 171, "type": "challenge", "text": "เลือก 2 คน กินคนละ 2 อึก", "owner": "Game" },
+  { "id": 172, "type": "challenge", "text": "คุณกินเพิ่มจากการ์ดถัดไป x2", "owner": "Game" },
+  { "id": 173, "type": "challenge", "text": "คนที่อายุน้อยสุด กิน 2 อึก", "owner": "Game" },
+  { "id": 174, "type": "challenge", "text": "คนที่อายุมากสุด กิน 2 อึก", "owner": "Game" },
+  { "id": 175, "type": "challenge", "text": "ทั้งวงกินพร้อมกัน 2 อึก", "owner": "Game" },
+
+  { "id": 176, "type": "challenge", "text": "คุณกินแทนคนทั้งวง 1 อึกต่อคน", "owner": "Game" },
+  { "id": 177, "type": "challenge", "text": "คนที่ใส่เสื้อสีเข้ม กิน 2 อึก", "owner": "Game" },
+  { "id": 178, "type": "challenge", "text": "คนที่ใส่เสื้อสีอ่อน กิน 2 อึก", "owner": "Game" },
+  { "id": 179, "type": "challenge", "text": "คนที่ถือแก้วอยู่ กินเพิ่ม 1 อึก", "owner": "Game" },
+  { "id": 180, "type": "challenge", "text": "คุณกินจนกว่าจะมีคนหยุดคุณ", "owner": "Game" },
+
+  { "id": 181, "type": "challenge", "text": "คนซ้ายกิน 1 คนขวากิน 2", "owner": "Game" },
+  { "id": 182, "type": "challenge", "text": "คุณกิน 2 อึก แล้วเลือกคนกินต่อ", "owner": "Game" },
+  { "id": 183, "type": "challenge", "text": "ทุกคนชี้คนซวย กิน 2 อึก", "owner": "Game" },
+  { "id": 184, "type": "challenge", "text": "คนที่โดนชี้เยอะสุด กิน 3 อึก", "owner": "Game" },
+  { "id": 185, "type": "challenge", "text": "คุณกินแทน Joker ครั้งหน้า", "owner": "Game" },
+
+  { "id": 186, "type": "challenge", "text": "คุณกินถ้าใครเรียกชื่อคุณ", "owner": "Game" },
+  { "id": 187, "type": "challenge", "text": "ใครพูดชื่อคุณ กิน 2 อึก", "owner": "Game" },
+  { "id": 188, "type": "challenge", "text": "คุณกินเพิ่ม 1 อึกทุก 10 วินาที", "owner": "Game" },
+  { "id": 189, "type": "challenge", "text": "ทั้งวงเงียบ 5 วิ ใครพูดกิน 2 อึก", "owner": "Game" },
+  { "id": 190, "type": "challenge", "text": "คุณกินจนกว่าเกมจะดำเนินต่อ", "owner": "Game" },
+
+  { "id": 191, "type": "challenge", "text": "เลือกคนหนึ่ง กินแทนคุณ x2", "owner": "Game" },
+  { "id": 192, "type": "challenge", "text": "คุณกินสองเท่าของการ์ดพื้นฐานถัดไป", "owner": "Game" },
+  { "id": 193, "type": "challenge", "text": "คนที่เพิ่งเปิดการ์ด กิน 2 อึก", "owner": "Game" },
+  { "id": 194, "type": "challenge", "text": "คุณกิน 3 อึกถ้าไม่กล้าปฏิเสธ", "owner": "Game" },
+  { "id": 195, "type": "challenge", "text": "ทั้งวงเลือกคุณ = คุณกิน 3 อึก", "owner": "Game" },
+
+  { "id": 196, "type": "challenge", "text": "คุณกินเพิ่มจากทุกคน 1 อึก", "owner": "Game" },
+  { "id": 197, "type": "challenge", "text": "คนที่ยังไม่เมา กิน 2 อึก", "owner": "Game" },
+  { "id": 198, "type": "challenge", "text": "คนที่ดูเมาสุด กิน 1 อึกเพิ่ม", "owner": "Game" },
+  { "id": 199, "type": "challenge", "text": "คุณกินปิดรอบ 3 อึก", "owner": "Game" },
+  { "id": 200, "type": "challenge", "text": "Hardcore Finish: คุณกิน 5 อึก", "owner": "Game" }
+  ]
+    
+
