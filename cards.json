@@ -1,62 +1,89 @@
 [
-  {
-    "id": 1,
-    "type": "challenge",
-    "text": "ซ้ายกิน",
-    "owner": "Game"
-  },
-  {
-    "id": 2,
-    "type": "challenge",
-    "text": "ขวากิน",
-    "owner": "Game"
-  },
-  {
-    "id": 3,
-    "type": "challenge",
-    "text": "คนตรงข้ามกิน",
-    "owner": "Game"
-  },
-  {
-    "id": 4,
-    "type": "challenge",
-    "text": "คนข้างๆกิน",
-    "owner": "Game"
-  },
-  {
-    "id": 5,
-    "type": "challenge",
-    "text": "คุณกิน",
-    "owner": "Game"
-  },
-  {
-    "id": 6,
-    "type": "challenge",
-    "text": "ทุกคนกิน",
-    "owner": "Game"
-  },
-  {
-    "id": 7,
-    "type": "challenge",
-    "text": "คนที่อายุมากที่สุดกิน",
-    "owner": "Game"
-  },
-  {
-    "id": 8,
-    "type": "challenge",
-    "text": "คนที่อายุน้อยที่สุดกิน",
-    "owner": "Game"
-  },
-  {
-    "id": 9,
-    "type": "challenge",
-    "text": "คนที่หัวเราะล่าสุดกิน",
-    "owner": "Game"
-  },
-  {
-    "id": 10,
-    "type": "challenge",
-    "text": "คนที่ถือโทรศัพท์กิน",
-    "owner": "Game"
-  }
-]
+  { "id": 1, "type": "challenge", "text": "ซ้ายกิน", "owner": "Game" },
+  { "id": 2, "type": "challenge", "text": "ขวากิน", "owner": "Game" },
+  { "id": 3, "type": "challenge", "text": "คนตรงข้ามกิน", "owner": "Game" },
+  { "id": 4, "type": "challenge", "text": "คนข้างๆกิน", "owner": "Game" },
+  { "id": 5, "type": "challenge", "text": "คุณกิน", "owner": "Game" },
+  { "id": 6, "type": "challenge", "text": "ทุกคนกิน", "owner": "Game" },
+  { "id": 7, "type": "challenge", "text": "คนที่อายุมากที่สุดกิน", "owner": "Game" },
+  { "id": 8, "type": "challenge", "text": "คนที่อายุน้อยที่สุดกิน", "owner": "Game" },
+  { "id": 9, "type": "challenge", "text": "คนที่หัวเราะล่าสุดกิน", "owner": "Game" },
+  { "id": 10, "type": "challenge", "text": "คนที่ถือโทรศัพท์กิน", "owner": "Game" },
+
+  { "id": 11, "type": "challenge", "text": "คนที่ใส่เสื้อสีเข้มกิน", "owner": "Game" },
+  { "id": 12, "type": "challenge", "text": "คนที่ใส่เสื้อสีอ่อนกิน", "owner": "Game" },
+  { "id": 13, "type": "challenge", "text": "คนที่นั่งใกล้คุณที่สุดกิน", "owner": "Game" },
+  { "id": 14, "type": "challenge", "text": "คนที่เพิ่งพูดล่าสุดกิน", "owner": "Game" },
+  { "id": 15, "type": "challenge", "text": "คนที่ยังไม่กินเลยกิน", "owner": "Game" },
+  { "id": 16, "type": "challenge", "text": "คนที่ชื่อยาวที่สุดกิน", "owner": "Game" },
+  { "id": 17, "type": "challenge", "text": "คนที่หัวเราะบ่อยที่สุดกิน", "owner": "Game" },
+  { "id": 18, "type": "challenge", "text": "คนที่ดูง่วงที่สุดกิน", "owner": "Game" },
+  { "id": 19, "type": "challenge", "text": "คนที่นั่งฝั่งซ้ายสุดของวงกิน", "owner": "Game" },
+  { "id": 20, "type": "challenge", "text": "คนที่นั่งฝั่งขวาสุดของวงกิน", "owner": "Game" },
+
+  { "id": 21, "type": "challenge", "text": "เกมห้ามหัวเราะ ใครหลุดแพ้", "owner": "Game" },
+  { "id": 22, "type": "challenge", "text": "นับเลข 1–20 แต่ห้ามพูดเลขที่มี 3 หรือ 7", "owner": "Game" },
+  { "id": 23, "type": "challenge", "text": "ตอบคำถามภายใน 3 วินาที ช้าคือแพ้", "owner": "Game" },
+  { "id": 24, "type": "challenge", "text": "พูดชื่อสิ่งของผลัดกัน ห้ามซ้ำ", "owner": "Game" },
+  { "id": 25, "type": "challenge", "text": "เกมชี้นิ้ว ใครช้าสุดแพ้", "owner": "Game" },
+  { "id": 26, "type": "challenge", "text": "พูดคำต้องห้าม ใครเผลอพูดแพ้", "owner": "Game" },
+  { "id": 27, "type": "challenge", "text": "ตบโต๊ะพร้อมกัน ใครช้าสุดแพ้", "owner": "Game" },
+  { "id": 28, "type": "challenge", "text": "พูดคำคล้องจองต่อกัน ใครตันแพ้", "owner": "Game" },
+  { "id": 29, "type": "challenge", "text": "เกมจ้องตา ใครหลบก่อนแพ้", "owner": "Game" },
+  { "id": 30, "type": "challenge", "text": "ห้ามพูดคำว่า ใช่ / ไม่ใช่", "owner": "Game" },
+
+  { "id": 31, "type": "challenge", "text": "ทำท่าตามคนก่อนหน้า ห้ามพลาด", "owner": "Game" },
+  { "id": 32, "type": "challenge", "text": "ตอบคำถามด้วยคำเดียวเท่านั้น", "owner": "Game" },
+  { "id": 33, "type": "challenge", "text": "พูดความจริง 1 ประโยค ห้ามคิดนาน", "owner": "Game" },
+  { "id": 34, "type": "challenge", "text": "ทำเสียงสัตว์ผลัดกัน ใครซ้ำแพ้", "owner": "Game" },
+  { "id": 35, "type": "challenge", "text": "เกมทายใจ เลือกคนหนึ่งแล้วทายการกระทำ", "owner": "Game" },
+  { "id": 36, "type": "challenge", "text": "พูดประโยคยาวโดยไม่หยุดหายใจ", "owner": "Game" },
+  { "id": 37, "type": "challenge", "text": "พูดชื่อคนในวงให้ครบโดยไม่ผิด", "owner": "Game" },
+  { "id": 38, "type": "challenge", "text": "ทำท่าทางแทนคำพูด ใครทายไม่ออกแพ้", "owner": "Game" },
+  { "id": 39, "type": "challenge", "text": "ตอบทุกคำถามเป็นคำถาม", "owner": "Game" },
+  { "id": 40, "type": "challenge", "text": "เกมเงียบ ใครพูดก่อนแพ้", "owner": "Game" },
+
+  { "id": 41, "type": "challenge", "text": "พูดชื่อสี แต่ห้ามพูดสีที่เห็น", "owner": "Game" },
+  { "id": 42, "type": "challenge", "text": "ทำท่าดีใจโดยไม่ยิ้ม", "owner": "Game" },
+  { "id": 43, "type": "challenge", "text": "พูดคำเดิมซ้ำ 10 ครั้งโดยไม่หลุด", "owner": "Game" },
+  { "id": 44, "type": "challenge", "text": "เกมเปลี่ยนกติกากลางคัน ใครพลาดแพ้", "owner": "Game" },
+  { "id": 45, "type": "challenge", "text": "พูดประโยคธรรมดาด้วยเสียงแปลก", "owner": "Game" },
+  { "id": 46, "type": "challenge", "text": "ทำท่าทางให้ตรงกับคำสั่งช้าๆ", "owner": "Game" },
+  { "id": 47, "type": "challenge", "text": "ตอบคำถามโดยโกหกทั้งหมด", "owner": "Game" },
+  { "id": 48, "type": "challenge", "text": "ทำท่าชนะเกมแบบโอเวอร์", "owner": "Game" },
+  { "id": 49, "type": "challenge", "text": "พูดเรียงพยัญชนะโดยไม่ติดขัด", "owner": "Game" },
+  { "id": 50, "type": "challenge", "text": "เลือก 2 คนแข่งกัน ใครแพ้รับโทษ", "owner": "Game" },
+
+  { "id": 51, "type": "character", "text": "ห้ามหัวเราะ", "owner": "Player" },
+  { "id": 52, "type": "character", "text": "ห้ามพูดคำว่า ใช่", "owner": "Player" },
+  { "id": 53, "type": "character", "text": "ห้ามพูดคำว่า ไม่", "owner": "Player" },
+  { "id": 54, "type": "character", "text": "ห้ามคุยกับผู้เล่นคนอื่น", "owner": "Player" },
+  { "id": 55, "type": "character", "text": "ห้ามสบตาใคร", "owner": "Player" },
+  { "id": 56, "type": "character", "text": "ห้ามยิ้ม", "owner": "Player" },
+  { "id": 57, "type": "character", "text": "ต้องพูดช้าตลอดเวลา", "owner": "Player" },
+  { "id": 58, "type": "character", "text": "ต้องพูดเร็วตลอดเวลา", "owner": "Player" },
+  { "id": 59, "type": "character", "text": "ต้องลงท้ายทุกประโยคด้วย ครับ/ค่ะ", "owner": "Player" },
+  { "id": 60, "type": "character", "text": "ต้องทำเสียงสูงเวลาพูด", "owner": "Player" },
+
+  { "id": 61, "type": "character", "text": "ต้องทำเสียงต่ำเวลาพูด", "owner": "Player" },
+  { "id": 62, "type": "character", "text": "ห้ามใช้มือซ้าย", "owner": "Player" },
+  { "id": 63, "type": "character", "text": "ห้ามใช้มือขวา", "owner": "Player" },
+  { "id": 64, "type": "character", "text": "ห้ามขยับตัวเกินจำเป็น", "owner": "Player" },
+  { "id": 65, "type": "character", "text": "ต้องพยักหน้าทุกครั้งก่อนพูด", "owner": "Player" },
+  { "id": 66, "type": "character", "text": "ต้องส่ายหัวทุกครั้งหลังพูด", "owner": "Player" },
+  { "id": 67, "type": "character", "text": "ห้ามพูดเกิน 3 คำต่อประโยค", "owner": "Player" },
+  { "id": 68, "type": "character", "text": "ต้องพูดเป็นคำถามเท่านั้น", "owner": "Player" },
+  { "id": 69, "type": "character", "text": "ต้องทำท่าทางประกอบทุกครั้งที่พูด", "owner": "Player" },
+  { "id": 70, "type": "character", "text": "ห้ามพูดชื่อใครในวง", "owner": "Player" },
+
+  { "id": 71, "type": "character", "text": "ต้องเรียกทุกคนว่า ท่าน", "owner": "Player" },
+  { "id": 72, "type": "character", "text": "ห้ามตอบคำถามตรง ๆ", "owner": "Player" },
+  { "id": 73, "type": "character", "text": "ต้องพูดเหมือนประกาศข่าว", "owner": "Player" },
+  { "id": 74, "type": "character", "text": "ห้ามใช้คำสรรพนาม", "owner": "Player" },
+  { "id": 75, "type": "character", "text": "ต้องทำหน้าตานิ่งตลอดเวลา", "owner": "Player" },
+  { "id": 76, "type": "character", "text": "ต้องหัวเราะก่อนเริ่มพูดทุกครั้ง", "owner": "Player" },
+  { "id": 77, "type": "character", "text": "ห้ามเป็นคนเริ่มบทสนทนา", "owner": "Player" },
+  { "id": 78, "type": "character", "text": "ต้องพูดเหมือนตัวร้ายในหนัง", "owner": "Player" },
+  { "id": 79, "type": "character", "text": "ต้องพูดเหมือนเด็ก 5 ขวบ", "owner": "Player" },
+  { "id": 80, "type": "character", "text": "ห้ามแสดงอารมณ์ใด ๆ", "owner": "Player" }
+    ]
