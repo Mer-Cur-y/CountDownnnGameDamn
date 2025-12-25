@@ -130,3 +130,6 @@ position: absolute;
   text-align: left;
   font-size: 0.9rem;
 }
+#cardText {
+  font-size: 60px; /* 👈 ตรงนี้แหละ */
+}
