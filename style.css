@@ -9,40 +9,49 @@ h1{
 body {
   font-family: sans-serif;
   text-align: center;
-  background-color: #444444;
-  color: white;
+  background-image: url("https://github.com/Mer-Cur-y/CountDownnnGameDamn/blob/main/ground.png?raw=true");
+  color: rgb(0, 0, 0);
+
   padding: 2rem;
 }
 
 .buttons button {
   margin: 10px;
-  font-size: 1.1rem;      /* ขนาดตัวอักษร */
-  padding: 20px 50px;     /* บนล่าง | ซ้ายขวา */
+  font-size: 1.1rem;
+  padding: 20px 50px;
   border-radius: 80px;
-  border: none;
+  border: 15px solid rgba(0, 0, 0, 0.6);
   cursor: pointer;
-  
+  font-family: "Mali", cursive;
+  font-weight: 600;
+}
+#cardText {
+  font-family: "Mali", cursive;
+  font-weight: 600;
+  margin-bottom: 8px;
 }
 
+
 #drawBtn {
-  background: #4caf50;
+  background: #3FB984;
   padding: 60px 60px; /* เขียว */
 }
 
 #resetBtn {
-  background: #f44336; /* แดง */
+  background: #C0392B; /* แดง */
 }
 
 #historyBtn {
-  background: #2196f3; /* น้ำเงิน */
+  background: #7fa5dd; /* น้ำเงิน */
 }
 
 #addBtn {
-  background: #ff9800; /* ส้ม */
+  background: #F4C430;
+  color:#000; /* ส้ม */
 }
 
 #deleteBtn {
-  background: #9c27b0; /* ม่วง */
+  background: #a768dd; /* ม่วง */
 }
 
 
@@ -51,6 +60,8 @@ body {
   height: 640px;
   margin: 3rem auto;
   perspective: 1000px;
+
+  margin-bottom: 80px; /* ⭐ เพิ่มระยะห่างจากปุ่ม */
 }
 
 .card {
@@ -58,10 +69,9 @@ body {
   height: 100%;
   position: relative;
   transform-style: preserve-3d;
-  transition: transform 0.6s;
-  border-radius: 12px;
-  box-shadow: 0 16px 50px rgba(0, 0, 0, 0.25);
+  transition: transform 0.6s ease;
 }
+
 
 .card.flipped {
   transform: rotateY(180deg);
@@ -71,7 +81,7 @@ body {
   position: absolute;
   width: 100%;
   height: 100%;
-  border-radius: 12px;
+  border-radius: 20px;
   backface-visibility: hidden;
   display: flex;
   flex-direction: column;
@@ -80,58 +90,103 @@ body {
 }
 
 .card-front {
-  background-image: url("https://i.pinimg.com/1200x/1c/dd/1f/1cdd1f2b174f95a15157b02fd4997fc4.jpg");
+  background-image: url("https://github.com/Mer-Cur-y/CountDownnnGameDamn/blob/main/Back.png?raw=true");
   background-size: cover;
   background-position: center;
   color: white;
 }
 
 .card-back {
-  background-image: url("https://i.pinimg.com/1200x/1c/dd/1f/1cdd1f2b174f95a15157b02fd4997fc4.jpg");
+  /*background-image: url("https://i.pinimg.com/1200x/1c/dd/1f/1cdd1f2b174f95a15157b02fd4997fc4.jpg");*/
   color: black;
   transform: rotateY(180deg);
   padding: 1rem;
 }
 
 .card.challenge .card-back {
-  background-image: url("https://i.pinimg.com/736x/71/6f/52/716f52d894b785f17447c25315629346.jpg");
-  color: white;
+  background-image: url("https://github.com/Mer-Cur-y/CountDownnnGameDamn/blob/main/challenge.png?raw=true");
+  /*background-color: #5A1C31;*/
+  color: rgb(0, 0, 0);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .card.character .card-back {
-  background-image: url("https://i.pinimg.com/736x/66/13/44/6613449e5090b74316436e887d90b6aa.jpg");
-  color: black;
+  background-image: url("https://github.com/Mer-Cur-y/CountDownnnGameDamn/blob/main/Charactor.png?raw=true");
+  color: rgb(0, 0, 0);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .card.waiting .card-back {
   filter: blur(0px);
 }
 
-#cardOwner {
-position: absolute;
-  top: 20px;
-  left: 0;
+/* ===== Slide Wrapper ===== */
+.card-wrapper {
   width: 100%;
-  text-align: center;
-  font-weight: bold;
-  font-size: 30px; 
+  height: 100%;
+  transition: transform 0.45s ease-in-out, opacity 0.3s ease;
 }
+
+/* อยู่กลางจอ */
+.card-wrapper.center {
+  transform: translateX(0);
+  opacity: 1;
+}
+
+/* เลื่อนออกไปจนหาย */
+.card-wrapper.slide-out {
+  transform: translateY(-150%);
+  opacity: 0;
+}
+
+/* เริ่มอยู่นอกจอ (การ์ดใหม่ ยังไม่เปิด) */
+.card-wrapper.slide-in {
+  transform: translateY(150%);
+  opacity: 0;
+}
+
+.card.joker .card-back {
+  background-image: url("https://github.com/Mer-Cur-y/CountDownnnGameDamn/blob/main/joker.png?raw=true");
+  color: #000000;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+
+
+#cardOwner {
+  position: static;          /* 🔥 สำคัญ */
+  margin: 0;
+  font-size: 28px;
+  opacity: 0.85;
+  font-family: "Mali", cursive;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
 
 .hidden {
   display: none;
 }
 
 #historyBox {
-  background: #111;
+  background: #ffffff;
   padding: 1rem;
   border-radius: 10px;
   max-width: 320px;
   margin: 1rem auto;
   text-align: left;
-  font-size: 0.9rem;
+  font-size: 20px;
+  border: #000000 5px solid;
+  
 }
 #cardText {
-  font-size: 79px;          /* ใหญ่มาก อ่านชัด */
+  font-size: 70px;          /* ใหญ่มาก อ่านชัด */
   font-weight: 700;
   text-align: center;
   line-height: 1.25;
@@ -139,4 +194,20 @@ position: absolute;
   margin: 0 auto;
   padding: 20px;
   word-break: break-word;
+}
+
+#cardCount {
+  display: inline-block;
+  margin-top: 50px;
+  padding: 6px 18px;
+
+  background: rgb(255, 255, 255); /* พื้นหลังโปร่ง */
+  color: #000000;
+  font-size: 20px;
+  font-weight: 600;
+  border: #000000 4px solid;
+
+  font-family: "Mali", cursive;
+  font-weight: 600;
+  margin-bottom: 8px;
 }
